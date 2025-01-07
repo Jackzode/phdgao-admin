@@ -1,0 +1,82 @@
+
+.loginPage {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+  .loginForm {
+    background: #fff; /* 白色背景 */
+    padding: 24px; /* 内边距 */
+    border-radius: 8px; /* 圆角 */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    width: 100%; /* 使表单适应小屏幕 */
+    max-width: 360px; /* 最大宽度 */
+
+    h1 {
+      color: #1890ff; /* Ant Design 主色蓝 */
+      text-align: center; /* 居中显示 */
+      font-size: 24px; /* 字体大小 */
+      margin-bottom: 24px; /* 添加下边距，避免与表单项挤在一起 */
+    }
+  }
+
+}
+
+
+.home {
+
+  .head {
+    display: flex;
+    justify-content: space-between; /* 两边对齐 */
+    align-items: center; /* 垂直居中 */
+    padding: 0 100px;
+    height: 80px;
+    background-color: #c3c5cd; /* 深蓝色背景 */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+    .logo {
+      font-size: 40px;
+      font-weight: bold;
+      color: blue; /* 白色字体 */
+    }
+
+    .ant-space {
+      display: flex;
+      gap: 16px; /* 按钮间距 */
+    }
+
+    a {
+      color: #535353; /* 按钮字体颜色 */
+      font-size: 30px;
+      text-decoration: none; /* 去掉下划线 */
+      padding: 8px 12px; /* 内边距 */
+      border-radius: 4px;
+      transition: background-color 0.3s ease; /* 动态背景过渡效果 */
+    }
+
+    a:hover {
+      color: #ffffff; /* 保持字体白色 */
+    }
+  }
+
+}
+
+
+.questions {
+  padding: 50px 200px;
+
+  .question-item {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+}
+
